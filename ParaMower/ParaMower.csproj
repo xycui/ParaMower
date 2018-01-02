@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Xianyi Cui</Authors>
+    <Company>Xianyi Cui</Company>
+    <Product>ParaMower</Product>
+    <Copyright>Copyright © 2018 Xianyi Cui</Copyright>
+    <PackageReleaseNotes>Init the first version of ParamMower</PackageReleaseNotes>
+    <PackageTags>Parameter, Parse, Commandline, CLI</PackageTags>
+    <Description>This is the package for the users to parse/convert the parameters/arguments in command line programing.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Extensions" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
